@@ -3,7 +3,14 @@
     "description": "Scafold react with react router in laravel app",
     "keywords": [
         "molnix",
-        "lareact"
+        "lareact",
+        "react",
+        "laravel",
+        "composer",
+        "reactjs",
+        "laravel-package",
+        "daisyui",
+        "php"
     ],
     "homepage": "https://github.com/molnix/lareact",
     "license": "MIT",

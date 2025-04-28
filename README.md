@@ -4,10 +4,12 @@ A simple package to scaffold a normal react app within new Laravel installation 
 
 ## Installation
 
+### Install laravel without any starter kits.
+
 You can install the package via composer:
 
 ```bash
-composer require molnix/lareact
+composer require molnix/lareact --dev
 ```
 
 ## Usage
