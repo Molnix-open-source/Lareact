@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html {
+    overflow-y: scroll;
+}
+html,
+body {
+    @apply min-h-screen;
+}

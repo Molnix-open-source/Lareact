@@ -1,42 +1,46 @@
 {
-    "name": "fizzybit/lareact",
+    "name": "molnix/lareact",
     "description": "Scafold react with react router in laravel app",
     "keywords": [
-        "fizzybit",
+        "molnix",
         "lareact"
     ],
-    "homepage": "https://github.com/fizzybit/lareact",
+    "homepage": "https://github.com/molnix/lareact",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
             "name": "Vish",
-            "email": "vish@fizzybit.com",
+            "email": "vishnu@molnix.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "php": "^8.2.0",
+        "illuminate/console": "^11.0|^12.0",
+        "illuminate/filesystem": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0",
+        "illuminate/validation": "^11.0|^12.0",
+        "symfony/console": "^7.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.0"
+        "laravel/framework": "^11.0|^12.0",
+        "orchestra/testbench": "^10.1",
+        "phpstan/phpstan": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Fizzybit\\Lareact\\": "src"
+            "Molnix\\Lareact\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fizzybit\\Lareact\\Tests\\": "tests"
+            "Molnix\\Lareact\\Tests\\": "tests"
         }
     },
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
@@ -44,11 +48,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Fizzybit\\Lareact\\LareactServiceProvider"
-            ],
-            "aliases": {
-                "Lareact": "Fizzybit\\Lareact\\LareactFacade"
-            }
+                "Molnix\\Lareact\\LareactServiceProvider"
+            ]
         }
     }
 }
